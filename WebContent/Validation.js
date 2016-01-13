@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	$("#ok").click(function(){
 	var email=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 	var pwd= /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
@@ -22,12 +21,6 @@ $(document).ready(function() {
 	else if(!pwd.test(password)){
 		alert("Password Must Contain Uppercase/Lowercase/Number/Special Symbol");
 	}
-	else{
-			alert("Enter");
-			
-			
-		
-		}
 	
  });
 	

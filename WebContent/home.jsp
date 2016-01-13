@@ -30,7 +30,8 @@
 						students.forEach(addStudentToTable);
 						$('#studentTbl').DataTable();
 					}
-				});
+				});				
+				
 			});
 </script>
 
@@ -49,19 +50,10 @@
 				<th>Birth Date</th>
 			</tr>
 		</thead>
-		<tfoot>
-			<tr>
-				<th>Contact Id</th>
-				<th>First Name</th>
-				<th>Last Name</th>
-				<th>Birth Date</th>
-			</tr>
-		</tfoot>
 		<tbody>
 		</tbody>
 	</table>
 
-
-
+<center><button id="back" value="Back" onclick="location.href='Login.html'">Back</button></center>
 </body>
 </html>
