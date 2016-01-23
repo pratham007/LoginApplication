@@ -42,8 +42,8 @@ public class DBCon extends HttpServlet {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			Connection con = DriverManager.getConnection(
-					"jdbc:oracle:thin:@192.168.1.11:1521:ftgdev", "cpg_prod",
-					"dev123");
+					"jdbc:oracle:thin:@localhost:1521:xe", "system",
+					"system");
 			String username = request.getParameter("username");
 			String password = request.getParameter("password");
 
